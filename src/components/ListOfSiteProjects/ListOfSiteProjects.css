@@ -1,0 +1,9 @@
+@font-face{
+    src: url(../../fonts/Roboto-Regular.ttf) ;
+    font-family:Roboto-Regular ;
+}
+
+.list-site{
+    color: #fff;
+    font-family:Roboto-Regular ;
+}

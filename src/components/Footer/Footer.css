@@ -1,0 +1,79 @@
+@font-face{
+    src: url(../../fonts/Roboto-Regular.ttf) ;
+    font-family:Roboto-Regular ;
+}
+
+.footer {
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 40px 0;
+    border-radius: 12px;
+    text-align: center;
+    font-family:Roboto-Regular ;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo img {
+    width: 60px;
+    height: auto;
+  }
+  
+  .footer-logo h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .footer-description {
+    font-size: 1rem;
+    color: #bbb;
+    max-width: 600px;
+    margin: 0 auto 15px;
+  }
+  
+  .footer-link {
+    display: inline-block;
+    color: #6a0dad;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .footer-link:hover {
+    color: #9d4edd;
+  }
+  
+  .footer-nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-nav li {
+    display: inline;
+  }
+  
+  .footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .footer-nav li a:hover {
+    color: #6a0dad;
+  }
+  
